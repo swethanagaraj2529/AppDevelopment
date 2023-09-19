@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+.logo-container {
+  text-align: center;
+  margin-bottom: 200px; /* Adjust the margin as needed */
+}
+h3 {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  color: #897878;
+  margin: 0; /* Remove margin from all sides to ensure it's in the top-left corner */
+  position: absolute;
+  top: 20px; /* Adjust the top distance as needed */
+  left: 100px; /* Adjust the left distance as needed */
+}
+
+
+/* Styles for the logo image */
+.logo {
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Automatically adjust the height based on the width */
+}
+.image-container {
+  flex: 1;
+  background-image: url('back.png');
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20px; /* Adjust the left margin as needed */
+  margin-top: 70px; /* Adjust the top margin as needed */
+  margin-bottom: 100px; /* Adjust the bottom margin as needed */
+}
+
+
+.form-container {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
