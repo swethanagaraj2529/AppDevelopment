@@ -1,0 +1,140 @@
+.home {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: -0px;
+  margin: 0px; 
+  
+}
+
+
+.logo {
+  width: 130px;
+  height: auto;
+
+}
+
+
+.sidebar {
+  position: fixed;
+  top: 55px; 
+  left: 0;
+  width: 150px; 
+  height: 100%; 
+  background-color: #000000; 
+  color: #fff; 
+  padding: 80px 0; 
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+.sidebar-menu {
+  margin-top: 20px; 
+}
+
+
+.sidebar-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 10;
+}
+
+.sidebar-menu li {
+  margin-bottom: 80px; 
+}
+
+.sidebar-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  display: block; 
+  margin-bottom: 50px; 
+}
+.sidebar-menu a:hover {
+  color: #007bff; 
+}
+
+
+.menu-bar {
+  background-color: #0a0a0a;
+  color: #fff; 
+  padding: 18px 0;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+}
+
+.menu-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-bar li {
+  display: inline;
+  margin-right: 200px;
+}
+
+.menu-bar li:last-child {
+  margin-right: 0;
+}
+
+.menu-bar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.menu-bar a:hover {
+  color: #007bff; 
+}
+
+main h1 {
+  font-size: 24px;
+  margin-top: 1px; 
+  margin-bottom: 550px; 
+  
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+
+  color: #333;
+}
+.report-box {
+  border: 1px solid #ccc;
+  background-color: #98b0b4; /* Add a border around the box */
+  padding: 20px; /* Add padding inside the box */
+  margin: 20px; /* Add margin around the box */
+}
+.an-report-box {
+  border: 1px solid #ccc;
+  background-color: #98b0b4; /* Add a border around the box */
+  padding: 20px; /* Add padding inside the box */
+  margin: 0px; /* Add margin around the box */
+}
+.in-report-box {
+  border: 1px solid #ccc;
+  background-color: #98b0b4;/* Add a border around the box */
+  padding: 20px; /* Add padding inside the box */
+  margin: 30px;
+ /* Add margin around the box */
+}
