@@ -1,0 +1,157 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, table {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define a general font for the page */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Style the entire page container */
+.home {
+  display: flex;
+  flex-direction: column; /* Set flex direction to column to stack content vertically */
+  align-items: center;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+}
+
+.sidebar {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background-color: #000000;
+  color: #fff;
+  padding: 80px 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-menu {
+  margin-top: 20px;
+}
+
+.sidebar-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 10;
+}
+
+.sidebar-menu li {
+  margin-bottom: 80px;
+}
+
+.sidebar-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.sidebar-menu a:hover {
+  color: #007bff;
+}
+
+.menu-bar {
+  background-color: #0a0a0a;
+  color: #fff;
+  padding: 18px 0;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+}
+
+.menu-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-bar li {
+  display: inline;
+  margin-right: 200px;
+}
+
+.menu-bar li:last-child {
+  margin-right: 0;
+}
+
+.menu-bar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.menu-bar a:hover {
+  color: #007bff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+  color: #333;
+  margin-top: 120px; /* Add margin-top to push content below the menu bar */
+}
+
+/* Style the claim list table at the top of the footer */
+.footer-table {
+  width: 100%;
+  max-width: 800px; /* Adjusted max-width for better content alignment */
+  margin: 0 auto;
+  border-collapse: collapse; /* Collapse table borders */
+}
+
+/* Style table header cells */
+.footer-table th {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd; /* Add border */
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style table data cells */
+.footer-table td {
+  border: 1px solid #ddd; /* Add border */
+  padding: 10px;
+  text-align: left;
+}
+
+/* Add hover effect to table rows */
+.footer-table tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+/* Style the claim list heading */
+.claims h2 {
+  text-align: center; /* Center align the text */
+  font-size: 30px; /* Adjust the font size */
+  margin-top: 20px; /* Add margin at the top */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
