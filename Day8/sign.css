@@ -1,0 +1,93 @@
+/* sign.css */
+
+.containerss {
+  display: flex;
+  min-height: 100vh;
+   /* Background color for the entire container */
+}
+
+.logo-containerss {
+  text-align: center;
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.logoss {
+  width: 150px;
+  height: auto;
+}
+
+.image-containerss {
+  flex: 1;
+  background-image: url('back.png');
+  background-position: center left; /* Adjust the background position */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Add margin or padding as needed */
+}
+
+
+.form-container-signupss {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ /* Background color for the form container */
+  border-radius: 8px; /* Add rounded corners to the form container */
+ /* Add a subtle shadow to the form container */
+  margin-left: 170px; /* Move the form container to the right */
+  margin-right: 0; /* Reset margin on the right */
+}
+
+.form-container-signupss h1 {
+  font-size: 24px;
+  color: #333; /* Text color for the heading */
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.form-container-signupss h2 {
+  font-size: 18px;
+  color: #333; /* Text color for the subheading */
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.form-groupss {
+  margin-bottom: 20px; /* Adjust the spacing between form fields */
+}
+
+.form-groupss input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /* Add a border to the input fields */
+  border-radius: 4px; /* Add rounded corners to the input fields */
+  font-size: 16px;
+}
+
+.logbutton-admin {
+  background-color: #3498db; /* Background color for the signup button */
+  color: #fff; /* Text color for the signup button */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.logbutton-admin:hover {
+  background-color: #2980b9; /* Hover color for the signup button */
+}
+
+.newss p {
+  margin-top: 10px;
+  color: black; /* Adjust the spacing between the "Already have an account?" text and the link */
+}
+
+.newss a {
+  text-decoration: none;
+  color: blue;
+}
+
+.newss a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,351 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, table {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define a general font for the page */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Style the entire page container */
+.homei {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-container-claimpi {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-claimpi {
+  width: 130px;
+  height: auto;
+}
+
+.sidebar-claimpi {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background-color: #000000;
+  color: #fff;
+  padding: 80px 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-menu-claimpi {
+  margin-top: 20px;
+}
+
+.sidebar-menu-claimpi ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu-claimpi li {
+  margin-bottom: 80px;
+}
+
+.sidebar-menu-claimpi a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.sidebar-menu-claimpi a:hover {
+  color: #007bff;
+}
+
+.menu-bar-claimpi {
+  background-color: #020000;
+  color: #fff;
+  padding: 18px 0;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+}
+
+.menu-bar-claimpi ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-bar-claimpi li {
+  display: inline;
+  margin-right: 200px;
+}
+
+.menu-bar-claimp li:last-child {
+  margin-right: 0;
+}
+
+.menu-bar-claimpi a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.menu-bar-claimpi a:hover {
+  color: #007bff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+  color: #333;
+  margin-top: 120px;
+}
+
+/* Style the claim list table at the top of the footer */
+.footer-table-c {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 1px;
+  border-collapse: collapse;
+}
+
+/* Style table header cells */
+.footer-table-c th {
+  border: 1px solid #0c0c0c;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style table data cells */
+.footer-table-c td {
+  border: 1px solid #060505;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Add hover effect to table rows */
+.footer-table-c tbody tr:hover {
+  background-color: #d0c1c1;
+}
+
+/* Style the claim list heading */
+.claims-c h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 500px;
+}
+
+.claims-c h2 {
+  background-color: #007bff;
+  font-size: 30px;
+}
+
+.footer-table-c td button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Style buttons on hover */
+.footer-table-c td button:hover {
+  background-color: #0056b3;
+}
+
+.horizontal-optionsi {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  position: fixed;
+  top: 100px;
+  left: 150px;
+  width: calc(100% - 150px);
+  z-index: 1;
+}
+
+.horizontal-optionsi a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.horizontal-optionsi a:hover {
+  background-color: #007bff;
+}
+/* Style for the tracker container */
+/* Style for the claim tracker container */
+.tracker {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0px 0; /* Added margin to the top */
+}
+
+
+.tracker h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.tracker ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tracker li {
+  margin: 10px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.tracker li::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #007bff; /* Color for completed steps */
+}
+
+/* Style for the document checklist container */
+/* Style for the document checklist container */
+.document-checklist {
+  background-color: #fff;
+  border-radius: 8px;
+  position: fixed;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 250px 0; /* Added margin to the top */
+}
+
+
+.document-checklist h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.document-checklist ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.document-checklist li {
+  margin: 10px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.document-checklist li::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #007bff; /* Color for completed items */
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.progress-meter {
+  padding: 0;
+  margin-top: 150px;
+}
+
+ol.progress-meter {
+  padding-bottom: 9.5px;
+  list-style-type: none;
+}
+ol.progress-meter li {
+  display: inline-block;
+  text-align: center;
+  text-indent: -19px;
+  height: 36px;
+  width: 24.99%;
+  font-size: 12px;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+}
+ol.progress-meter li:before {
+  position: relative;
+  float: left;
+  text-indent: 0;
+  left: -webkit-calc(50% - 9.5px);
+  left: -moz-calc(50% - 9.5px);
+  left: -ms-calc(50% - 9.5px);
+  left: -o-calc(50% - 9.5px);
+  left: calc(50% - 9.5px);
+}
+ol.progress-meter li.done {
+  font-size: 12px;
+}
+ol.progress-meter li.done:before {
+  content: "\2713";
+  height: 19px;
+  width: 19px;
+  line-height: 21.85px;
+  bottom: -28.175px;
+  border: none;
+  border-radius: 190px;
+}
+ol.progress-meter li.todo {
+  font-size: 19px;
+}
+ol.progress-meter li.todo:before {
+  content: "\2B24";
+  font-size: 20.1px;
+  bottom: -26.95px;
+  line-height: 18.05px;
+}
+ol.progress-meter li.done {
+  color: black;
+  border-bottom-color: yellowgreen;
+}
+ol.progress-meter li.done:before {
+  color: white;
+  background-color: yellowgreen;
+}
+ol.progress-meter li.todo {
+  color: silver;
+  border-bottom-color: silver;
+}
+ol.progress-meter li.todo:before {
+  color: silver;
+}

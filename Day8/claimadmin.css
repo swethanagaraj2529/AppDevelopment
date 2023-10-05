@@ -1,0 +1,47 @@
+.main-wrapper {
+  display: flex;
+  width: 2000px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures the content takes up at least the full viewport height */
+  background-color: #000000; /* Optional: Add a background color */
+}
+
+.table-container-claimadmin {
+  width: 100%;
+  margin-top:90px;
+  margin-left:300px; /* Adjust the width as needed */
+}
+
+.custom-table-claimadmin {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.custom-table-claimadmin th,
+.custom-table-claimadmin td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-table-claimadmin th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.delete-button-claimadmin {
+  background-color: #5e4949;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button-.custom-table-claimadmin {
+  background-color: #cc0000;
+}

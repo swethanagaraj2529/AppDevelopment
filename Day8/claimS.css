@@ -1,0 +1,285 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, table {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define a general font for the page */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Style the entire page container */
+.homes {
+  display: flex;
+  flex-direction: column; /* Set flex direction to column to stack content vertically */
+  align-items: center;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-container-claims{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-claims {
+  width: 130px;
+  height: auto;
+}
+
+.sidebar-claims {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background-color: #000000;
+  color: #fff;
+  padding: 80px 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-menu-claims {
+  margin-top: 20px;
+}
+
+.sidebar-menu-claims ul {
+  list-style: none;
+  padding: 0;
+  margin: 10;
+}
+
+.sidebar-menu-claims li {
+  margin-bottom: 80px;
+}
+
+.sidebar-menu-claims a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.sidebar-menu-claims a:hover {
+  color: #007bff;
+}
+
+.menu-bar-claims {
+  background-color: #020000;
+  color: #fff;
+  padding: 18px 0;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+}
+
+.menu-bar-claims ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-bar-claims li {
+  display: inline;
+  margin-right: 200px;
+}
+
+.menu-bar-claims li:last-child {
+  margin-right: 0;
+}
+
+.menu-bar-claims a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.menu-bar-claims a:hover {
+  color: #007bff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+  color: #333;
+  margin-top: 120px; /* Add margin-top to push content below the menu bar */
+}
+
+/* Style the claim list table at the top of the footer */
+.footer-table-c {
+  width: 100%;
+  max-width: 800px; /* Adjusted max-width for better content alignment */
+  margin: 0 auto;
+  position: absolute;
+  top: 200px; /* Position the table at the top of the screen */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 1px;
+  border-collapse: collapse; /* Collapse table borders */
+}
+
+/* Style table header cells */
+.footer-table-c th {
+  
+  border: 1px solid #0c0c0c; /* Add border */
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style table data cells */
+.footer-table-c td {
+  border: 1px solid #060505; /* Add border */
+  padding: 10px;
+  text-align: left;
+}
+
+/* Add hover effect to table rows */
+.footer-table-c tbody tr:hover {
+  background-color: #d0c1c1;
+}
+
+/* Style the claim list heading */
+.claims-c h2 {
+  text-align: center;
+  font-color: black; /* Center align the text */
+  font-size: 30px; /* Adjust the font size */
+  margin-top: 0px; /* Add margin at the top */
+  margin-bottom: 500px; /* Add margin at the bottom */
+}
+.gain claims-c h2{
+   background-color: #007bff;
+   font-size: 30px;
+
+}
+.footer-table-c td button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Style buttons on hover */
+.footer-table-c td button:hover {
+  background-color: #0056b3;
+}
+/* Add padding to the horizontal options */
+/* Add padding with background color to the horizontal options */
+/* Remove space between each option in the horizontal menu */
+.horizontal-optionss {
+  display: flex;
+  flex-direction: column; /* Display options vertically */
+  justify-content: flex-start; /* Align options to the top */
+  align-items: flex-start; /* Align options to the left */
+  position: fixed;
+  top: 100px; /* Adjust the top position to your preference */
+  left: 0; /* Align to the left */
+  padding: 1px;
+  border: 1px solid #ccc; /* Add a 1px solid border */
+  background-color: #fff; /* Background color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.horizontal-optionss a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 50px 20px; /* Add padding to space out options */
+  margin-bottom: 10px; /* Add margin to create space between options */
+  transition: background-color 0.3s ease;
+  color: #000; /* Set your desired color */
+}
+
+.horizontal-optionss a:hover {
+  background-color: #007bff;
+}
+
+
+/* Style the content section */
+/* Style the content section with margin-top */
+.content {
+  margin-left: 90px; /* Adjust the left margin to make space for the sidebar */
+  margin-top: 150px; /* Add margin-top to move it down */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the custom form */
+.custom-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form groups */
+/* Style form groups with a margin-top */
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px; /* Add margin-top to move it down */
+}
+/* Style labels */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style select input */
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+/* Style text input */
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+/* Style submit button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
