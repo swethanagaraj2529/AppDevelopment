@@ -1,0 +1,243 @@
+/* Reset some default browser styles */
+body, h1, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* .home styles */
+.d-home {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+/* .logo-container styles */
+.d-logo-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* .logo styles */
+.d-logo {
+  width: 130px;
+  height: auto;
+}
+
+/* .sidebar styles */
+.d-sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background-color: #000000;
+  color: #fff;
+  padding: 80px 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* .sidebar-menu styles */
+.d-sidebar-menu {
+  margin-top: 2px;
+}
+
+/* .sidebar-menu ul styles */
+.d-sidebar-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* .sidebar-menu li styles */
+.d-sidebar-menu li {
+  margin-bottom: 80px;
+}
+
+/* .sidebar-menu a styles */
+.d-sidebar-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  display: block;
+  margin-bottom: 50px;
+}
+
+/* .sidebar-menu a:hover styles */
+.d-sidebar-menu a:hover {
+  color: #007bff;
+}
+
+/* .menu-bar styles */
+/* .menu-bar styles */
+.d-menu-bar {
+  background-color: #0b0101;
+  color: #fff;
+  padding: 30px 0; /* Increased padding */
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+}
+.d-chart-container {
+  position: fixed;
+  top: 100px; /* Adjust the desired vertical position with a unit (e.g., px) */
+  left: 50%; /* Adjust the desired horizontal position */
+  transform: translateX(-50%); /* Center the chart horizontally */
+  width: 500px; /* Increase the width as needed */
+  height: 400px; /* Increase the height as needed */
+  margin-top: 300px;
+  margin-right: 0px;
+}
+
+
+
+/* Add margin-left to move the chart to the right */
+
+
+/* .menu-bar ul styles */
+.d-menu-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* .menu-bar li styles */
+.d-menu-bar li {
+  display: inline;
+  margin-right: 200px;
+}
+
+/* .menu-bar li:last-child styles */
+.d-menu-bar li:last-child {
+  margin-right: 0;
+}
+
+/* .menu-bar a styles */
+.d-menu-bar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+/* .menu-bar a:hover styles */
+.d-menu-bar a:hover {
+  color: #007bff;
+}
+
+/* main styles */
+.main h1{
+  font-size: 24px; 
+  margin-top: 0px; /* Adjust the margin-top to position the h1 element */
+  margin-bottom: 0px; /* Adjust the margin-bottom as needed */
+  text-align: left; /* Align the text to the left */
+  position: fixed; /* Position the h1 absolutely */
+  top: 18px; /* Distance from the top */
+  left: 1450px; /* Distance from the left */
+}
+.email-text {
+  color: blue; /* Change this to your desired color */
+}
+
+.d-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+  color: #f1eaea;
+}
+
+/* Footer styles */
+.d-footer {
+  background-color: #0a0a0a;
+  color: #fff;
+  width:1600px;
+  bottom:0px;
+  position:fixed; 
+  text-align: center;
+  padding: 20px 0;
+}
+
+.d-footer-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.d-footer-links a:hover {
+  color: #007bff;
+}
+.d-report-box {
+  border: 3px solid #191818;
+  background-color: #55a1b8;
+  padding: 60px;
+  position: fixed;
+  top:140px;
+  border-radius: 30px;
+  margin: 20px 700px 2px 0; /* Top, right, bottom, left margin (flipped) */
+  float: left; /* Align to the left */
+  clear: left; /* Clear previous floats */
+}
+
+
+.d-an-report-box {
+  border: 3px solid #191818;
+  background-color: #55a1b8;
+  margin: 0px 300px 2px 0;
+  padding: 60px;
+  border-radius: 30px;
+  position: fixed; /* Position it absolutely */
+  top: 160px; /* Place it at the top of the page */
+  left: 700px; /* Place it at the left of the page */
+}
+
+/* .in-report-box {
+  border: 1px solid #ccc;
+  background-color: #98b0b4;
+  padding: 20px;
+  margin: 0px 0px 2px 0;
+  position: absolute; /* Position it absolutely */
+  /* top: 1; /* Place it at the top of the page */
+  /* left: 745px; Adjust the left position as needed */ 
+/* } */ 
+.d-in-report-box {
+  border: 3px solid #191818;
+  background-color: #55a1b8;
+  padding: 60px;
+  margin: 0px 0px 2px 0;
+  border-radius: 30px;
+  position: fixed; /* Position it absolutely */
+  top: 160px; /* Place it at the top of the page */
+  left: 1100px; /* Adjust the left position as needed */
+}
+.d-in-report-box p {
+  font-family: cursive;
+  font-size: 20px;
+  font-stretch: condensed;
+}
+.d-an-report-box p {
+  font-family: cursive;
+  font-size: 20px;
+  font-stretch: condensed;
+}
+.d-report-box p {
+  font-family: cursive;
+  font-size: 20px;
+  font-stretch: condensed;
+}

@@ -1,0 +1,34 @@
+.containerps {
+
+  padding: 20px;
+  border-radius: 5px;
+ background-color: black;
+  margin: 20px;
+}
+
+/* Heading */
+.headingps {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Paragraphs */
+.textts {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Center the container */
+.center {
+  margin: 0 auto;
+  max-width: 800px; /* Adjust the width as needed */
+}
+ul{
+  list-style: circle;
+  
+}
+li{
+  margin-left: 4em;
+}

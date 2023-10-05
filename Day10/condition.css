@@ -1,0 +1,128 @@
+/* .containerey styles */
+body {
+  display: flex;
+  background-color: white;
+  min-height: 100vh; /* Hide horizontal scrollbar if content overflows */
+}
+
+/* .hai h2 styles */
+.hai h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+  margin-top: 10px; /* Slightly move the h2 higher for better alignment */
+  color: #000306;
+}
+
+/* .hai h3 styles */
+.hai h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px; /* Adjust margin-left for better alignment */
+  margin-bottom: 10px;
+  color: #000306;
+}
+
+/* .hai p styles */
+.hai p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  margin-left: 20px; /* Adjust margin-left for better alignment */
+  text-indent: 2em;
+  color: #000306;
+}
+
+/* .hai a styles */
+.hai a {
+  color: #000306;
+  text-decoration: underline;
+}
+
+/* Style checkboxes if needed */
+input[type="checkbox"] {
+  margin-right: 10px;
+  color: #000306;
+}
+
+/* Style for h3 with class 'one' */
+.hai .one {
+  font-size: 24px;
+  margin-top: 80px;
+  font-family: serif;
+  margin-bottom: 10px;
+  margin-left: 20px; /* Adjust margin-left for better alignment */
+  color: #000306;
+}
+
+.logoo-container {
+  position: absolute;
+  width: 10px;
+}
+
+/* .logoo styles */
+.logoo {
+  width: 130px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+/* Style for h3 with class 'two' */
+.hai .two {
+  font-size: 24px;
+  margin-top: 250px;
+  margin-left: 20px; /* Adjust margin-left for better alignment */
+  margin-bottom: 10px;
+  color: #000306;
+}
+
+/* Style for h3 with class 'three' */
+.hai .three {
+  font-size: 24px;
+  margin-top: 510px;
+  margin-left: 20px; /* Adjust margin-left for better alignment */
+  margin-bottom: 10px;
+  color: #000306;
+}
+
+/* Style for h3 with class 'four' */
+.hai .four {
+  /* You can add styles here if needed */
+}
+
+/* Style for h3 with class 'five' */
+.hai .five {
+  font-size: 24px;
+  margin-top: 700px;
+  margin-left: 20px; /* Adjust margin-left for better alignment */
+  margin-bottom: 10px;
+  color: #000306;
+}
+
+/* Style for the footer container */
+.footerey {
+   background-color: #0a0a0a; 
+
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+  padding: 0px;
+}
+
+/* Style for the footer buttons */
+.footerey-button {
+  /* Background color when not hovered */
+   /* Text color when not hovered */
+  padding: 8px 20px; /* Padding to make the buttons larger */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  margin: 5px; /* Add some margin around the buttons */
+  font-size: 16px; /* Font size */
+}
+
+/* Style for the footer buttons on hover */
+.footerey-button:hover {
+  background-color: #0056b3; /* Background color on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
