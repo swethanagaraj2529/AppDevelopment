@@ -1,0 +1,309 @@
+/* home.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+/* .home styles */
+.homehome {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  background-color: #fdfcfc;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+/* .logo-container styles */
+.logo-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* .logo styles */
+.logo {
+  width: 130px;
+  height: auto;
+}
+
+/* .sidebar styles */
+.sidebarl {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background-color: #050505;
+  color: #fff;
+  padding: 80px 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* .sidebar-menu styles */
+.sidebarl-menu {
+  margin-top: 130px;
+}
+
+/* .sidebar-menu ul styles */
+.sidebarl-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 0px;
+}
+
+/* .sidebar-menu li styles */
+.sidebarl-menu li {
+  margin-bottom: 100px;
+}
+
+/* .sidebar-menu a styles */
+.sidebarl-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  display: block;
+  margin-bottom: 50px;
+}
+
+/* .sidebar-menu a:hover styles */
+.sidebarl-menu a:hover {
+  color: #007bff;
+}
+
+/* .menu-bar-home styles */
+.menu-bar-home {
+  color: #fff;
+  padding: 14px 0;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+}
+
+/* .menu-bar ul styles */
+.menu-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* .menu-bar li styles */
+.menu-bar li {
+  display: inline;
+  margin-right: 200px;
+}
+
+/* .menu-bar li:last-child styles */
+.menu-bar li:last-child {
+  margin-right: 0;
+}
+
+/* .menu-bar a styles */
+.menu-bar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+/* .menu-bar a:hover styles */
+.menu-bar a:hover {
+  color: #007bff;
+}
+
+/* main styles */
+main h1 {
+  font-size: 24px;
+  margin-top: 17px;
+  margin-bottom: 20px;
+  text-align: left;
+  position: absolute;
+  top: 0px;
+  left: 1450px;
+}
+
+.email-text {
+  color: blue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+  color: #fdfcfc;
+}
+
+/* Footer styles */
+.footer-home {
+  background-color: #0a0a0a;
+  color: #fff;
+  width: 2100px;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  padding: 20px 0;
+  right: 0;
+}
+
+.footer-home-links {
+  text-align: right;
+  margin-right: 600px;
+}
+
+.footer-home-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin: 60px 20px;
+  transition: color 0.3s ease;
+}
+
+.footer-home-links a:hover {
+  color: #007bff;
+}
+
+/* Modify the styles for the scroll container */
+#scroll-container {
+  border-radius: 5px;
+  overflow: hidden;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  right: 0;
+}
+
+#scroll-text {
+  text-align: right;
+  font-size: 25px;
+  color: #030303;
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(-100%); }
+  to { -moz-transform: translateX(100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(-100%); }
+  to { -webkit-transform: translateX(100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+.frame {
+  height: 60vh;
+  width: 29vw;
+  margin-top: 0;
+  margin-right: 0;
+  background-color: #fffefe;
+  background-position: center;
+  background-size: cover;
+  animation: image 3s infinite alternate;
+  position: absolute;
+  top: 150px;
+  right: 100px;
+}
+
+@keyframes image {
+  0% {
+    background-image: url('fam.jpeg');
+  }
+  100% {
+    background-image: url('best.jpg');
+  }
+}
+
+.container {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  background-color: #f4f4f4;
+  color: #499f68;
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  position: absolute;
+  top:700px;
+  bottom: 10px;
+  right: 600px;
+}
+.pounter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+ 
+  color: #499f68;
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  position: absolute;
+  top:0px;
+  bottom: 1000px;
+  right: 300px;
+}
+.pounter .pp {
+  position: absolute;
+  bottom: 0px; /* Adjust this value as needed */
+  left: 10px; /* Adjust this value as needed */
+  transform: translateX(-300%);
+  color: #030303;
+  margin-left: 10px;
+  top: 800px;
+}
+
+.lounter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  background-color: #f4f4f4;
+  color: #499f68;
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  position: absolute;
+  top:0px;
+  bottom: 0px;
+  left: 1650px;
+}
+/* Add specific CSS for elements with the class name 'cute' */
+
+

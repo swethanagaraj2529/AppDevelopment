@@ -1,0 +1,166 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, table {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Define a general font for the page */
+}
+
+/* Style the entire page container */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+/* Logo Container */
+.logo-container-claimp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-claimp {
+  width: 150px;
+  height: auto;
+}
+
+/* Sidebar */
+
+
+/* Menu Bar */
+.menu-bar-claimp {
+
+  color: #fff;
+  padding: 30px 0;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+}
+
+.menu-bar-claimp li {
+  display: inline;
+  margin-right: 20px; /* Reduced margin */
+}
+
+.menu-bar-claimp li:last-child {
+  margin-right: 0;
+}
+
+.menu-bar-claimp a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.menu-bar-claimp a:hover {
+  color: #007bff;
+}
+
+/* Form Section */
+.form-section {
+  background-color: #fff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Form Group */
+.form-section .form-group {
+  margin-bottom: 20px;
+}
+
+/* Form Labels */
+.form-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form Inputs */
+.form-section input,
+.form-section select {
+  border: none;
+  border-bottom: 2px solid #007bff;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  transition: border-color 0.3s ease;
+}
+
+/* Form Inputs on Focus */
+.form-section input:focus,
+.form-section select:focus {
+  border-color: #0056b3;
+}
+
+/* Form Submit Button */
+.form-section button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Headings */
+.headings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.headings p {
+  font-size: 22px;
+  white-space: nowrap;
+  color: #060606;
+}
+
+/* Horizontal options */
+.horizontal-optionsss {
+  display: flex;
+  flex-direction: column; /* Display options vertically */
+  justify-content: flex-start; /* Align options to the top */
+  align-items: flex-start; /* Align options to the left */
+  position: fixed;
+  top: 130px; /* Adjust the top position to your preference */
+  left: 0; /* Align to the left */
+  padding: 10px;
+  border: 1px solid #ccc; /* Add a 1px solid border */
+  background-color: #fff; /* Background color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.horizontal-optionsss a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 50px 20px; /* Add padding to space out options */
+  margin-bottom: 10px; /* Add margin to create space between options */
+  transition: background-color 0.3s ease;
+  color: #000; /* Set your desired color */
+}
+
+.horizontal-optionsss a:hover {
+  background-color: #007bff;
+}
+

@@ -1,0 +1,141 @@
+/* login.css */
+
+/* Container for the entire login form */
+.containers {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff; */
+}
+
+/* Logo container */
+.logo-containers {
+  margin-bottom: 20px;
+}
+
+/* Logo image */
+.logos {
+  max-width: 150px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Image container */
+.image-containers {
+  flex: 1;
+  background-image: url('back.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%; /* Adjust the width as needed */
+}
+
+/* Headline text */
+/* login.css */
+
+/* ... (previous styles) */
+
+/* Headline text */
+.kee {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 30px 0;
+  position: absolute;
+  right: 480px;
+  top: 80px;
+}
+
+/* Form container */
+/* Updated CSS */
+/* Updated CSS */
+/* Updated CSS */
+.form-form {
+  flex: 1;
+  padding: 20px;
+  width: 50%; /* Adjust the width as needed */
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 290px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 800px; /* Add this to move it to the right */
+}
+
+
+
+/* Form input fields */
+.form-group,
+.form-groups {
+  margin-bottom: 20px;
+}
+
+/* Form input styling */
+.form-group input,
+.form-groups input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Login button */
+.logbutton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logbutton:hover {
+  background-color: #0056b3;
+}
+
+/* New account link */
+.new {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.new a {
+  text-decoration: none;
+  color: blue;
+}
+
+.new a:hover {
+  text-decoration: underline;
+}
+
+/* Popup styling (customize as needed) */
+.popup {
+  /* Your popup styles here */
+}
+.frames {
+  height: 75vh;
+  width: 40vw;
+  margin-top: 0;
+  margin-right: 750px;
+  background-color: #fffefe;
+  background-position: center;
+  background-size: cover;
+  animation: image 3s infinite alternate;
+  position: absolute;
+  top: 150px;
+  right: 100px;
+}
+@keyframes image {
+  0% {
+    background-image: url('fam.jpeg');
+  }
+  100% {
+    background-image: url('best.jpg');
+  }
+}
